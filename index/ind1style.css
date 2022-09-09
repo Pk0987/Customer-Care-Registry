@@ -1,0 +1,48 @@
+    *{
+    font-family:Cambria;
+    data-animation: animated fadeInDown;
+    }
+
+    .split-bg{
+        padding-left:5%;
+        margin-top:5%;
+        background-image:url("ccr.svg");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .split-left{
+        position:relative;
+    }
+        span {
+        color:blue;
+        }
+        input[type=button]{
+        color:white;
+        cursor:pointer;
+        border-radius:5px;
+        width:120px;
+        background-color:red;
+        padding:5px;
+        font-weight:bold;
+        font-family:Cambria;
+        letter-spacing:.5px;
+        padding-down:%;
+        }
+
+        input[type=text],input[type=email],input[type=password]{
+        padding:8px;
+        margin-left:10px;
+        width:28%;
+        }
+        h1{
+        font-weight:bold;
+        font-family:Cambria;
+        }
+        div.name,div.pwd,div.email,div.cpwd,div.checkbox,div.button{
+        padding:10px;
+        }
+        div.checkbox{
+        margin-left:87px;
+        }
+
+
