@@ -1,0 +1,12 @@
+
+
+.row{
+
+    justify-content: space-around;
+
+}
+
+input::placeholder{
+    color: red;
+    opacity: .1;
+}
