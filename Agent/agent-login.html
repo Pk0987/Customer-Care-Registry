@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/CCR.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/agent-login.css" type="text/css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom d-flex p-4 justify-content-around">
+            <div class="container-fluid">
+              <div><a href="#back" onclick="history.go(-1)"><img src="assets/left-arrow.svg" alt="back" style="height: 30px; width:30px"></a></div>
+                <div class="px-3"><a href="home.html"><h2>Customer Care Registry</h2></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item active px-3" style="font-size: 1.4rem;"><a class="nav-link" href="#!">Home</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Link</a></li> -->
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" style="font-size: 1.4rem;" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="profile.html">My Account</a>
+                                <a class="dropdown-item" href="tasks.html">Status</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="home.html">Log-out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+       
+        <!-- <div class="body"> -->
+            <section class="h-100 h-custom mx-5" style="background-color: white;">
+                <div class="container-fluid py-5">
+                    <h2 class="fw-bold text-primary text-center my-1 pb-4">Login</h2>
+                    <div class="card card-stepper" style="border-radius: 10px; background-color: rgb(236, 236, 236);">
+                        <div class="card-body p-5">
+                            <div class="d-flex justify-content">
+                                <div class="flex col-md-9 col-lg-10 col-xl-9 mb-5 pb-5 pt-5" style="width:50%; height:0%;"
+                                    id="flex">
+                                    <img src="assets/undraw_freelancer_re_irh4.svg" class="img-fluid" alt="Sample image">
+                                </div>
+                                <div class="d-flex col-10 col-lg-10 col-xl-9">
+                                    <form class="form mx-5 px-5 pt-5" style="width: 100%; height: 100%;">
+        
+                                        <!-- Email input -->
+                                        <div class="col-md-12 mb-4">
+                                            <div class="form-outline mb-4">
+                                                <label class="form-label" for="form3Example3">Email address</label>
+                                                <div class="col-sm-8">
+                                                    <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                                        placeholder="Enter Email ID" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Password input -->
+                                        <div class="col-md-12 mb-4">
+                                            <div class="form-outline mb-3">
+                                                <label class="form-label" for="form3Example4">Password</label>
+                                                <div class="col-sm-8">
+                                                    <input type="password" id="form3Example4"
+                                                        class="form-control form-control-lg" placeholder="Enter password" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Checkbox -->
+                                        <div class="col-md-12 mb-4">
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="form2Example3" />
+                                                <label class="form-check-label" for="form2Example3">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#!" class="text-body mt-3 pt-4">Forgot password?</a>
+                                        </div>
+        
+                                        <div class="text-center text-lg-start mt-4">
+                                            <button type="button" class="btn btn-primary btn-lg"
+                                                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                            <!-- <p class="small fw-bold mt-2 pt-1 mt-3">Don't have an account? <a
+                                                    href="register.html" class="link-danger">Register</a></p> -->
+                                        </div>
+        
+        
+                                    </form>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+</body>
+</html>
+
+
+
